@@ -1,0 +1,16 @@
+#
+#SubjectA
+.//P_11_data11.txt
+.//P_12_data12.txt
+#SubjectB
+.//P_21_data21.txt
+.//P_22_data22.txt
+.//P_23_data23.txt
+#
+#SubjectC
+../mrd_code/P_11_data11.txt
+../mrd_code/P_12_data12.txt
+#SubjectD
+../mrd_code/P_21_data21.txt
+../mrd_code/P_22_data22.txt
+../mrd_code/P_23_data23.txt

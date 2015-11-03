@@ -1,6 +1,6 @@
 # Code for the paper "???"
 
-Scripts used for analysis of MRD TCR clonal sequence in the paper [link will be here](paper name).
+Scripts used for analysis of MRD TCR clonal sequences in the paper [link will be here](paper name).
 
 ### Files with MRD TCR clones
 - mrd_tcr_clones.txt

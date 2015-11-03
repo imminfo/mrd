@@ -1,6 +1,6 @@
-# Code for paper "???"
+# Code for the paper "???"
 
-Scripts used for analysis MRD TCR clones in the paper [link](link will be here).
+Scripts used for analysis of MRD TCR clonal sequence in the paper [link will be here](paper name).
 
 ### Files with MRD TCR clones
 - mrd_tcr_clones.txt
@@ -12,16 +12,16 @@ Scripts used for analysis MRD TCR clones in the paper [link](link will be here).
 
 Example of file is `input_files.txt`. It consists of blocks with files for each individual:
     
-> <path to the folder with individuals 1 and 2>
-> #Individual_1
-> file_1_1 pattern
-> file_1_2 pattern
-> #Individual_2
-> file_2_1 pattern
-> file_2_2 pattern
-> }
-> <path to the folder with individuals 3, etc.>
-> ...
+    <path to the folder with individuals 1 and 2>
+    #Individual_1
+    file_1_1 pattern
+    file_1_2 pattern
+    #Individual_2
+    file_2_1 pattern
+    file_2_2 pattern
+    }
+    <path to the folder with individuals 3, etc.>
+    ...
 
 Resulting file will be `input_files.links.txt`.
 

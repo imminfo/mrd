@@ -1,6 +1,12 @@
-# Code for the paper "???"
+[![Licence](https://img.shields.io/hexpm/l/plug.svg?style=flat-square)](http://www.apache.org/licenses/LICENSE-2.0)
 
-Scripts used for analysis of MRD TCR clonal sequences in the paper [link will be here](paper name).
+# Code for the paper on TCR gene rearrangements in minimal residual disease (MRD).
+
+Scripts used for analysis of MRD TCR clonal sequences in the paper 
+
+    [paper name](link will be here later)
+
+The project was done in the [Laboratory of Comparative and Functional Genomics](http://labcfg.ibch.ru/lcfg.html).
 
 ### Files with MRD TCR clones
 - mrd_tcr_clones.txt

@@ -28,7 +28,6 @@ def count_clonotypes_in_files(link_path):
 			if line[0] == '#':
 				sample = line[1:]
 				if sample:
-					sample_list.append(sample)
 					for seq, _ in local_sequences:
 						global_sequences[seq] = global_sequences.get(seq, 0) + 1
 					local_sequences = {}
@@ -40,8 +39,7 @@ def count_clonotypes_in_files(link_path):
 				for target_line in target_file:
 					words = target_line.strip().split()
 					new_seq = get_sequence(words)
-					count = local_sequences.get(new_seq, 0)
-					if count == 0:
+					if local_sequences.get(new_seq, 0) == 0:
 						local_sequences[new_seq] = 1
 
 	return global_sequences

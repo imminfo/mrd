@@ -48,4 +48,4 @@ if __name__ == '__main__':
 	seq_dict = count_clonotypes_in_files(sys.argv[1])
 
 	print("# Unique clonotypes: ", sum(filter(lambda x: x == 1, seq_dict.values())))
-	print("# Public clonotypes: ", sum([1 for x in filter(lambda x: x > 1, seq_dict.values())])
+	print("# Public clonotypes: ", sum([1 for x in filter(lambda x: x > 1, seq_dict.values())]))
